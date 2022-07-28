@@ -21,7 +21,7 @@
 
 ## Live Demo
 
- - Click [Here](https://sweet-gecko-724554.netlify.app/)
+ - Click [Here](https://sweet-starlight-ee0568.netlify.app/)
 
 ## Getting Started
 
