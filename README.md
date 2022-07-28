@@ -39,7 +39,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup 🎰
 
-- Click the [me](https://github.com/yohannesdagnachew/crypto-market) and you'll land on the pure repository;
+- Click the [me](https://github.com/yohannesdagnachew/) and you'll land on the pure repository;
 - click on the green (🟢) button with `Code` Inscription;
 - You can choose to download the project or just clone.
 - Follow normal step once download in your computer and use it as it's yours.
