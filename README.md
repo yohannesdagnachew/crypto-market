@@ -4,11 +4,12 @@
 >
 >
  ## Project view
- ### General view 
-![Leaderboard](/images/desktop.png)
-### Single view
-![Leaderboard](/images/mobile.png)
-![Leaderboard](/images/detail.png)
+ ### Desctop  
+![screenshot1](/images/desktop.png)
+### Mobile
+![screenshot2](/images/mobile.png)
+### Mobile Detail
+![screenshot3](/images/detail.png)
 
 > In order to achieve this project I used some resources and technologies listed below :
 ## Built With
@@ -20,7 +21,7 @@
 
 ## Live Demo
 
- - Click [Here](https://sweet-gecko-724554.netlify.app/ To open the live demo
+ - Click [Here](https://sweet-gecko-724554.netlify.app/)
 
 ## Getting Started
 
