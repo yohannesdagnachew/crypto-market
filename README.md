@@ -5,10 +5,10 @@
 >
  ## Project view
  ### General view 
-![screen1](/imgages/desktop.png)
+![screen1](./imgages/desktop.png)
 ### Single view
-![screen2](/imgages/mobile.png)
-![screen3](/imgages/detail.png)
+![screen2](./imgages/mobile.png)
+![screen3](./imgages/detail.png)
 
 > In order to achieve this project I used some resources and technologies listed below :
 ## Built With
