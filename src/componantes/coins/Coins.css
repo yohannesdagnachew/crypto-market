@@ -83,7 +83,7 @@
   .all-coins {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 0.623rem;
+    gap: 0.625rem;
     width: 90%;
     padding: 20px;
   }
