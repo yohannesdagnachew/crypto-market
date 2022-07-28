@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test if coinrenDetail render correctly 1`] = `
+<div
+  className="all-info"
+>
+  <div
+    className="header-info"
+    id="bitcoin"
+  >
+    <div>
+      jo
+    </div>
+    <img
+      alt="bitcoin"
+      className="icons-detail"
+      src="https//image1.com"
+    />
+    <div>
+      Price : 
+      $100.00
+    </div>
+  </div>
+  <div
+    className="info"
+  >
+    <div
+      className="info-right"
+    >
+      <p>
+        Rank : 
+      </p>
+      <p>
+        Symbol : 
+      </p>
+      <p>
+        Price : 
+        $100.00
+      </p>
+      <p>
+        Volume : 
+      </p>
+      <p>
+        MarketCap : 
+      </p>
+    </div>
+    <div
+      className="info-left"
+    >
+      <p>
+        Av.Supply : 
+      </p>
+      <p>
+        Tot.Supply : 
+      </p>
+      <p>
+        Price var/H : 
+         
+        % /hour
+      </p>
+      <p>
+        Price var/D :
+         
+        % /day
+      </p>
+      <p>
+        Price var/W :
+         
+        % /week
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Test if coinrenderer render correctly 1`] = `
+<div
+  className="all-info"
+>
+  <div
+    className="header-info"
+    id="bit"
+  >
+    <div>
+      coinbase
+    </div>
+    <img
+      alt="bit"
+      className="icons-detail"
+      src="http/image"
+    />
+    <div>
+      Price : 
+      $200.00
+    </div>
+  </div>
+  <div
+    className="info"
+  >
+    <div
+      className="info-right"
+    >
+      <p>
+        Rank : 
+        2
+      </p>
+      <p>
+        Symbol : 
+        image/24
+      </p>
+      <p>
+        Price : 
+        $200.00
+      </p>
+      <p>
+        Volume : 
+        68
+      </p>
+      <p>
+        MarketCap : 
+        20378420
+      </p>
+    </div>
+    <div
+      className="info-left"
+    >
+      <p>
+        Av.Supply : 
+        3233
+      </p>
+      <p>
+        Tot.Supply : 
+        3232
+      </p>
+      <p>
+        Price var/H : 
+         
+        545
+        % /hour
+      </p>
+      <p>
+        Price var/D :
+         
+        34
+        % /day
+      </p>
+      <p>
+        Price var/W :
+         
+        64
+        % /week
+      </p>
+    </div>
+  </div>
+</div>
+`;

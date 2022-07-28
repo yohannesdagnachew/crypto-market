@@ -1,17 +1,23 @@
 /* eslint-disable react/self-closing-comp */
-import { useSelector } from 'react-redux';
 import './App.css';
-import Citys from './componantes/county/Citys';
-import Contry from './componantes/county/Contry';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from 'react-router-dom';
+import Details from './componantes/coins/coinsDetails/Details';
+import Coins from './componantes/coins/Coins';
+import Nav from './componantes/Nav/Nav';
 
 function App() {
-  const data = useSelector((state) => state);
-  console.log(data);
   return (
-    <div className="App">
-      <Contry />
-      <Citys />
-    </div>
+    <BrowserRouter>
+      <Nav className="nav" />
+      <Routes>
+        <Route path="/" element={<Coins />} />
+        <Route path="/details" element={<Details />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 export default App;

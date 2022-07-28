@@ -1,15 +1,21 @@
 import ActionType from './actionType';
 
-export default function CountryReducer(state = [{ id: 1, country: 'Ethiopia' }], { type, payload }) {
+export default function CountryReducer(state = [], { type, payload }) {
   switch (type) {
-    case ActionType.CITYS:
-      return state;
-    case ActionType.BACK:
-      return {
-        ...state, payload,
-      };
+    case ActionType.DETAILS:
+    {
+      const result = [];
+      const newArray = state.find((item) => item.id === payload);
+      result.push(newArray);
+      return result;
+    }
+    case ActionType.SEARCH:
+    {
+      const newArray = state.filter((item) => item.rank <= payload);
+      return newArray;
+    }
     case ActionType.FETCHDATA:
-      return state;
+      return payload;
     default:
       return state;
   }

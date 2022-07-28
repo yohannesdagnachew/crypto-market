@@ -1,8 +1,8 @@
 const ActionType = {
   FETCHDATA: 'Data',
   CITYS: 'citys',
-  BACK: 'Back',
   SEARCH: 'search',
+  DETAILS: 'detail',
 };
 
 export default ActionType;

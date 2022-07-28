@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 6.25rem;
+  height: 1.25rem;
+  align-items: center;
+  color: rgb(241, 238, 10);
+  background-color: rgb(5, 31, 67);
+}
+
+.feature {
+  display: flex;
+  gap: 20px;
+}
+
+.logo {
+  height: 300%;
+  color: brown;
+}
+
+.log {
+  margin-bottom: 0.9375rem;
+}
+
+@media screen and (max-width: 760px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+  }
+}
