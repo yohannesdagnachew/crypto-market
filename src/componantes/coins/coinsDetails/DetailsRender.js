@@ -10,15 +10,12 @@ export default function DetailsRender({
     marketCap,
     symbol,
     price,
-    // priceBtc,
     volume,
     availableSupply,
     totalSupply,
     priceChange1h,
     priceChange1d,
     priceChange1w,
-    // websiteUrl,
-    // twitterUrl,
   },
 }) {
   const CurrencyFormatter = (amount) => new Intl.NumberFormat('en-US', {

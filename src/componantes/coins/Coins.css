@@ -87,4 +87,11 @@
     width: 90%;
     padding: 20px;
   }
+
+  .header-info {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    color: aqua;
+  }
 }
