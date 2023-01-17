@@ -14,7 +14,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid rgb(7, 7, 7);
+  border: 1px solid gray;
   padding: 15px;
   color: white;
   gap: 5px;
@@ -49,7 +49,7 @@
 }
 
 .header-info {
-  border: 1px solid black;
+  background-color: rgb(12, 106, 208);
   color: white;
   width: 60%;
   display: flex;
