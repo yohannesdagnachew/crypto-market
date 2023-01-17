@@ -14,6 +14,11 @@ export default function CoinsReducer(state = [], { type, payload }) {
       const newArray = state.filter((item) => item.rank <= payload);
       return newArray;
     }
+    case ActionType.SEARCH:
+    {
+      const newArray = state.filter((item) => item.name.toLowerCase().includes(payload.toLowerCase()));
+      return newArray;
+    }
     case ActionType.FETCHDATA:
       return payload;
     default:

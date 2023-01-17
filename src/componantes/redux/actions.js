@@ -22,6 +22,13 @@ export function detail(coins) {
   };
 }
 
+export function search(coins) {
+  return {
+    type: ActionType.SEARCH,
+    payload: coins,
+  };
+}
+
 export const setData = () => async (dispatch) => {
   const url = 'https://api.coinstats.app/public/v1/coins';
   const res = await getCounty(url);
