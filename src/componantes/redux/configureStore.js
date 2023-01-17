@@ -1,9 +1,9 @@
 import { configureStore } from '@reduxjs/toolkit';
-import CountryReducer from './reducer';
+import CoinsReducer from './reducer';
 
 const store = configureStore({
   reducer: {
-    list: CountryReducer,
+    list: CoinsReducer,
   },
 });
 

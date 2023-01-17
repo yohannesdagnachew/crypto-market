@@ -1,6 +1,6 @@
 import ActionType from './actionType';
 
-export default function CountryReducer(state = [], { type, payload }) {
+export default function CoinsReducer(state = [], { type, payload }) {
   switch (type) {
     case ActionType.DETAILS:
     {
