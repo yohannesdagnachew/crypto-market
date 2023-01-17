@@ -8,9 +8,9 @@ export function fetchData(coins) {
   };
 }
 
-export function search(coins) {
+export function filterByRank(coins) {
   return {
-    type: ActionType.SEARCH,
+    type: ActionType.FILTERBYRANK,
     payload: coins,
   };
 }

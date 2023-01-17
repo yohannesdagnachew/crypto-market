@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import CoinRender from './coinRender';
 import './Coins.css';
-import { setData, search } from '../redux/actions';
+import { setData, filterByRank } from '../redux/actions';
 import SearchInput from './searchInput';
 
 export default function Coins() {
@@ -14,7 +14,7 @@ export default function Coins() {
 
   const Dropdown = async (e) => {
     await dispatch(setData());
-    dispatch(search(e.target.value));
+    dispatch(filterByRank(e.target.value));
   };
   return (
     <div>
