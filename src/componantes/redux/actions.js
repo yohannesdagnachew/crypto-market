@@ -32,6 +32,6 @@ export function search(coins) {
 export const setData = () => async (dispatch) => {
   const url = 'https://api.coinstats.app/public/v1/coins';
   const res = await getCounty(url);
-  const rocketData = res.data.coins;
-  dispatch(fetchData(rocketData));
+  const CoinData = res.data.coins;
+  dispatch(fetchData(CoinData));
 };
