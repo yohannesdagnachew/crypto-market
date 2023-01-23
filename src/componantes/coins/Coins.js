@@ -13,7 +13,6 @@ export default function Coins() {
   const coins = useSelector((state) => state.list);
 
   const Dropdown = async (e) => {
-    await dispatch(setData());
     dispatch(filterByRank(e.target.value));
   };
   return (
