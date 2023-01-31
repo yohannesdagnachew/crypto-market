@@ -13,13 +13,15 @@ export default function Coins() {
   const coins = useSelector((state) => state.list);
 
   return (
-    <div>
-      <DropDown />
+    <>
+      <div className="drop_down">
+        <DropDown />
+      </div>
       <div to className="all-coins">
         {coins.map((item) => (
           <CoinRender key={item.id} List={item} />
         ))}
       </div>
-    </div>
+    </>
   );
 }

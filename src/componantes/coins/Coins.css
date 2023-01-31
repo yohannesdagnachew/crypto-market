@@ -71,11 +71,20 @@
   margin: 1.25rem;
 }
 
+.drop_down {
+  align-items: center;
+  margin-left: 90%;
+}
+
 @media screen and (max-width: 760px) {
   .info {
     display: flex;
     flex-direction: column;
     gap: 1.125rem;
+  }
+
+  .drop_down {
+    display: none;
   }
 
   .all-coins {
