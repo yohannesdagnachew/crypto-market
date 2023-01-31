@@ -14,8 +14,14 @@
 }
 
 .logo {
+  width: 30%;
+  height: 100%;
+  margin-top: -3%;
+}
+
+.logoImg {
+  width: 20%;
   height: 300%;
-  color: brown;
 }
 
 .log {
@@ -27,5 +33,9 @@
     display: flex;
     justify-content: space-between;
     padding: 20px 20px;
+  }
+
+  .logo {
+    margin-top: -10%;
   }
 }

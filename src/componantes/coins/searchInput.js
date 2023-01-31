@@ -11,12 +11,15 @@ export default function SearchInput() {
     setsearchInput(event.target.value);
   };
   const searchCoin = () => {
+    if (searchInput === '') {
+      return;
+    }
     dispatch(search(searchInput));
   };
   return (
-    <div>
+    <>
       <input onChange={searchInputHandler} />
       <SearchIcon color="primary" onClick={searchCoin} />
-    </div>
+    </>
   );
 }

@@ -68,9 +68,7 @@
 }
 
 .drop {
-  display: flex;
-  justify-content: flex-end;
-  margin: 24px;
+  margin: 1.25rem;
 }
 
 @media screen and (max-width: 760px) {
