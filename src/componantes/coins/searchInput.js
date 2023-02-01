@@ -5,10 +5,10 @@ import { search } from '../redux/actions';
 
 export default function SearchInput() {
   const dispatch = useDispatch();
-  const [searchInput, setsearchInput] = useState('');
+  const [searchInput, setSearchInput] = useState('');
 
   const searchInputHandler = (event) => {
-    setsearchInput(event.target.value);
+    setSearchInput(event.target.value);
   };
   const searchCoin = () => {
     if (searchInput === '') {
