@@ -1,7 +1,7 @@
 import { Provider } from 'react-redux';
 import renderer from 'react-test-renderer';
-import DetailsRender from '../coins/coinsDetails/DetailsRender';
-import store from '../redux/configureStore';
+import DetailsRender from '../componantes/coins/coinsDetails/DetailsRender';
+import store from '../componantes/redux/configureStore';
 
 it('To check test is working', () => {
   expect(true).toBe(true);
