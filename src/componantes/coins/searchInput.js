@@ -2,6 +2,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { search } from '../redux/actions';
+import './searchInput.css';
 
 export default function SearchInput() {
   const dispatch = useDispatch();
@@ -18,7 +19,7 @@ export default function SearchInput() {
   };
   return (
     <>
-      <input onChange={searchInputHandler} />
+      <input className="searchInput" onChange={searchInputHandler} />
       <SearchIcon color="primary" onClick={searchCoin} />
     </>
   );
